@@ -1,7 +1,7 @@
 === MyLiveChat===
 Contributors: MyLiveChat
 Tags: my live chat, live support, live chat, live chat software, online support, ecommerce, increase sales, customer help, customer support, livechat, live support, customer service, plugin, chat
-Stable tag: 1.0.2
+Stable tag: 1.0.3
 Requires at least: 2.8
 Tested up to: 3.2.1
 
@@ -52,7 +52,7 @@ Take a tour to see why you need My LiveChat on your website: https://mylivechat.
 
 == Installation ==
 
-1. Upload 'wp-mylivechat' directory to Wordpress plugins directory ('/wp-content/plugins/')
+1. Upload 'my-live-chat-for-wp' directory to Wordpress plugins directory ('/wp-content/plugins/')
 2. Activate the plugin through the 'Plugins' menu in WordPress
 3. Click the 'MyLiveChat' menu on the left.
 4. Follow the instructions.
@@ -99,4 +99,7 @@ For more information, check out <a href="https://mylivechat.com/screenshots.aspx
 
 = 1.0.2 =
 * Rewrote whole plugin code
+
+= 1.0.3 =
+* Improved readme.txt
 
