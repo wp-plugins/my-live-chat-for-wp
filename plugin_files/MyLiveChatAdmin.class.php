@@ -128,7 +128,7 @@ final class MyLiveChatAdmin extends MyLiveChat
 
 	public function control_panel_page()
 	{
-		echo '<iframe id="control_panel" src="https://www.mylivechat.com/addon-panel.aspx" frameborder="0"></iframe>
+		echo '<iframe id="control_panel" src="https://www.mylivechat.com/addon-panel.aspx" frameborder="0" style="width:100%; height:500px;"></iframe>
 			<p>Optionally, open the Control panel in an <a href="https://www.mylivechat.com/addon-panel.aspx" target="_blank">external window</a>.</p>';
 	}
 
