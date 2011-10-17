@@ -1,7 +1,7 @@
 === MyLiveChat===
 Contributors: MyLiveChat
 Tags: my live chat, live support, live chat, live chat software, online support, ecommerce, increase sales, customer help, customer support, livechat, live support, customer service, plugin, chat
-Stable tag: 1.0.0
+Stable tag: 1.0.2
 Requires at least: 2.8
 Tested up to: 3.2.1
 
@@ -96,3 +96,7 @@ For more information, check out <a href="https://mylivechat.com/screenshots.aspx
 
 = 1.0.1 =
 * Fixed readme.txt
+
+= 1.0.2 =
+* Rewrote whole plugin code
+

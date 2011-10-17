@@ -75,6 +75,7 @@ class MyLiveChat
 	{
 		if(is_null($this->get_mylivechat_id()))
 			return false;
+		if($this->get_mylivechat_id() == "") return false;
 		return true;
 	}
 
