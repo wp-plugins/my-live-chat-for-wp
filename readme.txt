@@ -103,3 +103,4 @@ For more information, check out <a href="https://mylivechat.com/screenshots.aspx
 = 1.0.3 =
 * Improved readme.txt
 
+
