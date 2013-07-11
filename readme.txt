@@ -1,9 +1,9 @@
 === MyLiveChat===
 Contributors: MyLiveChat
-Tags: my live chat, live support, live chat, live chat software, online support, ecommerce, increase sales, customer help, customer support, livechat, live support, customer service, plugin, chat
-Stable tag: 1.0.3
+Tags: my live chat, live support, live chat, free live chat, live chat software, online support, livechat, live support, chat
+Stable tag: 2.0.0
 Requires at least: 2.8
-Tested up to: 3.2.1
+Tested up to: 3.5.1
 
 This plugin integrates your Wordpress with My LiveChat - an application for online customer service and support.
 
@@ -91,16 +91,19 @@ For more information, check out <a href="https://mylivechat.com/screenshots.aspx
 
 == Changelog ==
 
-= 1.0.0 =
-* First plugin version
+= 2.0.0 =
+* Inline Chat window UI is supported. Web Agent Console and Mac Agent Console are avaiable!
 
-= 1.0.1 =
-* Fixed readme.txt
+= 1.0.3 =
+* Improved readme.txt
 
 = 1.0.2 =
 * Rewrote whole plugin code
 
-= 1.0.3 =
-* Improved readme.txt
+= 1.0.1 =
+* Fixed readme.txt
+
+= 1.0.0 =
+* First plugin version
 
 

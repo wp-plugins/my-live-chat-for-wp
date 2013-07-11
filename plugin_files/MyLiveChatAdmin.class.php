@@ -22,9 +22,9 @@ final class MyLiveChatAdmin extends MyLiveChat
 	 */
 	protected function __construct()
 	{
-		parent::__construct();
-		
-		wp_enqueue_script('mylivechatjquery', $this->get_plugin_url().'/js/jquery-1.6.min.js', '', $this->get_plugin_version(), true);
+		parent::__construct();		
+
+		wp_enqueue_script('jquery');
 		wp_enqueue_script('mylivechat', $this->get_plugin_url().'/js/mylivechat.js', 'jquery', $this->get_plugin_version(), true);
 
 		add_action('admin_menu', array($this, 'admin_menu'));
@@ -216,22 +216,24 @@ final class MyLiveChatAdmin extends MyLiveChat
 					</tr>
 					<tr><td colspan=\"2\">Don't have MyLiveChat account? <a href=\"https://www.mylivechat.com/register.aspx\" target=\"_blank\">Get it for free!</a></td></tr>
 					<tr>
-						<td scope=\"row\"><label for=\"mylivechat_pos\">Display Posistion:</label></td>
+						<td scope=\"row\"><label for=\"mylivechat_displaytype\">Display Type:</label></td>
+						<td>
+							<select name=\"mylivechat_displaytype\" id=\"mylivechat_displaytype\">
+								<option value=\"inline\">Inline Chat</option>
+								<option value=\"button\">Chat Button</option>
+								<option value=\"box\">Chat Box</option>
+								<option value=\"link\">Chat Text Link</option>
+							</select>
+						</td>
+					</tr>
+					<tr>
+						<td scope=\"row\" style=\"vertical-align:top;\"><label for=\"mylivechat_pos\">Display Posistion:</label></td>
 						<td>
 							<select name=\"mylivechat_pos\" id=\"mylivechat_pos\">
 								<option value=\"widget\">Widget</option>
 								<option value=\"footer\">Footer</option>
 							</select>
-						</td>
-					</tr>
-					<tr>
-						<td scope=\"row\"><label for=\"mylivechat_displaytype\">Display Type:</label></td>
-						<td>
-							<select name=\"mylivechat_displaytype\" id=\"mylivechat_displaytype\">
-								<option value=\"button\">Chat Button</option>
-								<option value=\"box\">Chat Box</option>
-								<option value=\"link\">Chat Text Link</option>
-							</select>
+							<p class=\"description\">Inline chat does not use this setting.</p>
 						</td>
 					</tr>
 					<tr>
@@ -249,7 +251,7 @@ final class MyLiveChatAdmin extends MyLiveChat
 		</div>";
 		
 		echo "<script type=\"text/javascript\">				
-				document.getElementById('mylivechat_displaytype').value='".$this->get_mylivechat_displaytype()."'||'button';
+				document.getElementById('mylivechat_displaytype').value='".$this->get_mylivechat_displaytype()."'||'inline';
 				document.getElementById('mylivechat_pos').value='".$this->get_mylivechat_pos()."'||'widget';
 			</script>";
 	}
@@ -288,7 +290,7 @@ final class MyLiveChatAdmin extends MyLiveChat
 		
 		$mylivechat_id = isset($data['mylivechat_id']) ? $data['mylivechat_id'] : "";
 		$mylivechat_pos = isset($data['mylivechat_pos']) ? $data['mylivechat_pos'] : "widget";
-		$mylivechat_displaytype = isset($data['mylivechat_displaytype']) ? $data['mylivechat_displaytype'] : "button";
+		$mylivechat_displaytype = isset($data['mylivechat_displaytype']) ? $data['mylivechat_displaytype'] : "inline";
 		//$mylivechat_membership = isset($data['mylivechat_membership']) ? $data['mylivechat_membership'] : "no";
 		//$mylivechat_encrymode = isset($data['mylivechat_encrymode']) ? $data['mylivechat_encrymode'] : "none";
 		//$mylivechat_encrykey = isset($data['mylivechat_encrykey']) ? $data['mylivechat_encrykey'] : "";

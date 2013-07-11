@@ -108,37 +108,40 @@ function MyLiveChat_Signup()
 		alert("Last name should not contain special characters");
 		return;
 	}
+
+	jQuery(document).ready(function($) {
 	
-	var url;
+		var url;
 
-	$('#Cont_MyLiveChat_Signup .ajax_message').removeClass('message').addClass('wait').html('Creating new account&hellip;');
+		$('#Cont_MyLiveChat_Signup .ajax_message').removeClass('message').addClass('wait').html('Creating new account&hellip;');
 
-	url = 'https://www.mylivechat.com/addon-signup.aspx';
-	url += '?firstname='+encodeURIComponent(firstname);
-	url += '&lastname='+encodeURIComponent(lastname);
-	url += '&email='+encodeURIComponent(email);
-	url += '&password='+encodeURIComponent(password);
-	url += '&timezone_gmt='+encodeURIComponent(MyLiveChat_GMT());
-	url += '&action=wordpress_signup';
-	url += '&jsoncallback=?';
+		url = 'https://www.mylivechat.com/addon-signup.aspx';
+		url += '?firstname='+encodeURIComponent(firstname);
+		url += '&lastname='+encodeURIComponent(lastname);
+		url += '&email='+encodeURIComponent(email);
+		url += '&password='+encodeURIComponent(password);
+		url += '&timezone_gmt='+encodeURIComponent(MyLiveChat_GMT());
+		url += '&action=wordpress_signup';
+		url += '&jsoncallback=?';
 
-	$.getJSON(url, function(data)
-	{
-		data = parseInt(data.r);
-		if (data == 0)
+		$.getJSON(url, function(data)
 		{
-			$('#Cont_MyLiveChat_Signup .ajax_message').html('<span style="color:red;">Could not create account. Please try again later.</span>').addClass('message').removeClass('wait');
-			return false;
-		}
+			data = parseInt(data.r);
+			if (data == 0)
+			{
+				$('#Cont_MyLiveChat_Signup .ajax_message').html('<span style="color:red;">Could not create account. Please try again later.</span>').addClass('message').removeClass('wait');
+				return false;
+			}
 
-		if(data == 1)
-		{
-			$('#Cont_MyLiveChat_Signup .ajax_message').html('<span style="color:red;">An account has already been created for your entered Email Address!</span>').addClass('message').removeClass('wait');
-			return false;
-		}
+			if(data == 1)
+			{
+				$('#Cont_MyLiveChat_Signup .ajax_message').html('<span style="color:red;">An account has already been created for your entered Email Address!</span>').addClass('message').removeClass('wait');
+				return false;
+			}
 
-		// save mylivechat id
-		$('#mylivechat_id').val(data);
-		$('#mylivechat_settings_form').submit();
+			// save mylivechat id
+			$('#mylivechat_id').val(data);
+			$('#mylivechat_settings_form').submit();
+		});
 	});
 }

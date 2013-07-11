@@ -183,6 +183,19 @@ class MyLiveChat
 		}
 	}
 
+	public function mylivechat_inlinecode()
+	{
+
+		if(is_null($this->get_mylivechat_id()))
+		{
+			//echo "<a href='https://www.mylivechat.com/register.aspx' target='_blank'>Sign up MyLiveChat</a>";
+		}
+		else
+		{	
+			echo "<script type=\"text/javascript\" src=\"https://www.mylivechat.com/chatinline.aspx?hccid=".$this->get_mylivechat_id()."\"></script>";
+		}
+	}
+
 	public function mylivechat_monitor()
 	{
 		if(is_null($this->get_mylivechat_id()))
@@ -201,7 +214,8 @@ class MyLiveChat
 		echo '<link type="text/css" rel="stylesheet" href="' . $this->get_plugin_url().'/css/mylivechat.css" />' . "\n";
 
 		$_pos = $this->get_mylivechat_pos();
-		if(is_null($_pos) || $_pos ==""	|| $_pos=="widget")
+		$_type = $this->get_mylivechat_displaytype();
+		if($_type!="inline" && (is_null($_pos) || $_pos ==""	|| $_pos=="widget"))
 		{
 			$this->mylivechat_monitor();
 		}
@@ -210,6 +224,12 @@ class MyLiveChat
 	public function mylivechat_footer()
 	{
 		$_pos = $this->get_mylivechat_pos();
+		$_type = $this->get_mylivechat_displaytype();
+		if($_type=="inline")
+		{
+			$this->mylivechat_inlinecode();
+			return;
+		}
 		if(!is_null($_pos) &&$_pos !=""	&& $_pos=="footer")
 		{
 			$this->mylivechat_code();
