@@ -17,7 +17,7 @@ The My Live Chat solution is provided on an Application Service Provider (ASP) b
 
 **It is 100% Free!**
 
-It’s hard to believe that such a polished, professional and popular product can be free. At My Live Chat, we use the most effective technologies to provide highest quality at minimum price. This is why we are able to offer you totally free edition and low-priced premium version.
+It's hard to believe that such a polished, professional and popular product can be free. At My Live Chat, we use the most effective technologies to provide highest quality at minimum price. This is why we are able to offer you totally free edition and low-priced premium version.
 
 **Higher Conversion**
 
