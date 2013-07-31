@@ -1,15 +1,31 @@
 === MyLiveChat===
 Contributors: MyLiveChat
-Tags: my live chat, live support, live chat, free live chat, live chat software, online support, livechat, live support, chat
+Tags: add-on, casengo, casengo chat, category, my live chat, free live chat, chat, banckle, chat button, chat link, chat live, chat module, chat plugin, chat script, chat online, chat software, chat support, chat tool,  Chat Widget, chat wordpress, chatlive, chattool, clickdesk, collaboration, collaboration chat, collaborative, comment, comments, contact, contact button, contact chat, contact form, contact plugin, contact us, contactform, content, customer chat, customer service software, customer support, customer support software, customer tool, desk, email, embed chat, extension, extensions, feedback, freshdesk, help, help desk, helpdesk, html, html chat, html script, html widget, hybrid messaging, javascript, link, live chat, live chat button, live chat facebook, live chat software, live chat widget, live help, live support, live support software, livechat, livehelp, media, messaging, module, modules, olark, online chat, online conversion, online customer chat, online live chat, online support, page, pages, plugin, plugin chat, Post, snap engage, social chat, social media, socialmedia, software, support, support category, support chat, support desk, support software, support tool, template, visitor, web, Website, widget, wordpress, WordPress Plugin, www, zendesk, zendesk chat, chat on IM, click desk, click-to-call, contact call, csupport, facebook chat, Google chat button, Gtalk button, gtalk chat, help desk, help desk software, helpdesk, IM Chat, live chat, live chat inc, live chat software, live help, live support, livechat, livehelp, livesupport, offline, olark, online support, phone, skype chat, SkypeMe, snapengage, web chat, webchat, wordpress help desk, wordpress live chat, wordpress live chat plugin, zendesk, Zopim
 Stable tag: 2.0.0
-Requires at least: 2.8
+Requires at least: 2.7
 Tested up to: 3.5.1
 
 This plugin integrates your Wordpress with My LiveChat - an application for online customer service and support.
 
 == Description ==
 
-My LiveChat is a fast, high performance and most user-friendly live chat solution. It allows you to live chat with website visitors, monitor site traffic, and analyze visitors web activities, including their search engine and keyword usage.
+My LiveChat is a free, fastest, high performance and most user-friendly [live chat software](https://mylivechat.com "Live Chat Software") solution. It allows you to live chat with website visitors, monitor site traffic, and analyze visitors web activities, including their search engine and keyword usage.
+
+Visitors to your web site simply click a Live Help button and are connected with one of your representatives. Your representative then assists the visitor by providing information, links, graphics, or even guiding them through your web site.
+
+The My Live Chat solution is provided on an Application Service Provider (ASP) basis. This means there is no hardware to install and you can get started instantly.
+
+**It is 100% Free!**
+
+It’s hard to believe that such a polished, professional and popular product can be free. At My Live Chat, we use the most effective technologies to provide highest quality at minimum price. This is why we are able to offer you totally free edition and low-priced premium version.
+
+**Higher Conversion**
+
+Invite website visitors to chat with you in a private, one-on-one environment. Proactive invitations turn more visitors into buyers and decrease number of customers who leave without purchase. 
+
+**Live Visitor Monitoring**
+
+Allows real time traffic monitoring, see who is browsing your site. Monitor real time traffic, see visitors path, referrers, current page. Find the visitors with the best potential and invite them to chat. 
 
 **Plugin Highlights:**
 
