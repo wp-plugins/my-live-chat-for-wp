@@ -82,7 +82,7 @@ It's very simple. Just follow the easy steps listed below:
 
 Yes. If you're looking for a live chat option, but just aren't ready for a paid edition then My Live Chat Free version is the perfect way to go. With inserting a simple piece of HTML code, a floating chat button that doesn't interfere with your website design, and key features to help you do chat right, you'll be chatting to your website visitors without any cost.
 
-= Do I get [live chat](https://mylivechat.com "Live Chat Software") feature for free? =
+= Do I get live chat feature for free? =
 Yes. All our users can use live chat feature for free.
 
 = Why it is free? =
