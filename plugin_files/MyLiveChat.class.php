@@ -195,6 +195,18 @@ class MyLiveChat
 			echo "<script type=\"text/javascript\" src=\"https://www.mylivechat.com/chatinline.aspx?hccid=".$this->get_mylivechat_id()."\"></script>";
 		}
 	}
+	
+	public function mylivechat_widgetcode()
+	{
+
+		if(is_null($this->get_mylivechat_id()))
+		{
+		}
+		else
+		{	
+			echo "<script type=\"text/javascript\" src=\"https://www.mylivechat.com/chatwidget.aspx?hccid=".$this->get_mylivechat_id()."\"></script>";
+		}
+	}
 
 	public function mylivechat_monitor()
 	{
@@ -228,6 +240,11 @@ class MyLiveChat
 		if($_type=="inline")
 		{
 			$this->mylivechat_inlinecode();
+			return;
+		}
+		if($_type=="widget")
+		{
+			$this->mylivechat_widgetcode();
 			return;
 		}
 		if(!is_null($_pos) &&$_pos !=""	&& $_pos=="footer")

@@ -223,6 +223,7 @@ final class MyLiveChatAdmin extends MyLiveChat
 								<option value=\"button\">Chat Button</option>
 								<option value=\"box\">Chat Box</option>
 								<option value=\"link\">Chat Text Link</option>
+								<option value=\"widget\">Chat Widget</option>
 							</select>
 						</td>
 					</tr>
