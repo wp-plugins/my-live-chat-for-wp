@@ -135,6 +135,9 @@ For more information, check out <a href="https://mylivechat.com/screenshots.aspx
 
 == Changelog ==
 
+= 2.0.2 =
+* Android APP is released.
+
 = 2.0.1 =
 * Improved readme.txt. Live Chat Support forum is added.
 
