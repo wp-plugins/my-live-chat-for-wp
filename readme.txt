@@ -1,6 +1,6 @@
 ===MyLiveChat - Live Chat Plugin for WordPress===
 Contributors: MyLiveChat
-Tags: add-on, casengo, casengo chat, category, my live chat, free live chat, chat, banckle, chat button, chat link, chat live, chat module, chat plugin, chat script, chat online, chat software, chat support, chat tool,  Chat Widget, chat wordpress, chatlive, chattool, clickdesk, collaboration, collaboration chat, collaborative, comment, comments, contact, contact button, contact chat, contact form, contact plugin, contact us, contactform, content, customer chat, customer service software, customer support, customer support software, customer tool, desk, email, embed chat, extension, extensions, feedback, freshdesk, help, help desk, helpdesk, html, html chat, html script, html widget, hybrid messaging, javascript, link, live chat, live chat button, live chat facebook, live chat software, live chat widget, live help, live support, live support software, livechat, livehelp, media, messaging, module, modules, olark, online chat, online conversion, online customer chat, online live chat, online support, page, pages, plugin, plugin chat, Post, snap engage, social chat, social media, socialmedia, software, support, support category, support chat, support desk, support software, support tool, template, visitor, web, Website, widget, wordpress, WordPress Plugin, www, zendesk, zendesk chat, chat on IM, click desk, click-to-call, contact call, csupport, facebook chat, Google chat button, Gtalk button, gtalk chat, help desk, help desk software, helpdesk, IM Chat, live chat, live chat inc, live chat software, live help, live support, livechat, livehelp, livesupport, offline, olark, online support, phone, skype chat, SkypeMe, snapengage, web chat, webchat, wordpress help desk, wordpress live chat, wordpress live chat plugin, zendesk, Zopim
+Tags: free live chat, chat, chat button, chat link, live chat, chat module, chat plugin, chat script, chat software, chat support, Chat Widget, live chat software
 License: GPLv2 or later
 Requires at least: 2.7
 Tested up to: 3.5.1
@@ -82,7 +82,7 @@ It's very simple. Just follow the easy steps listed below:
 
 Yes. If you're looking for a live chat option, but just aren't ready for a paid edition then My Live Chat Free version is the perfect way to go. With inserting a simple piece of HTML code, a floating chat button that doesn't interfere with your website design, and key features to help you do chat right, you'll be chatting to your website visitors without any cost.
 
-= Do I get live chat feature for free? =
+= Do I get [live chat](https://mylivechat.com "Live Chat Software") feature for free? =
 Yes. All our users can use live chat feature for free.
 
 = Why it is free? =
@@ -134,9 +134,6 @@ For more information, check out <a href="https://mylivechat.com/screenshots.aspx
 
 
 == Changelog ==
-
-= 2.0.2 =
-* Android APP is released.
 
 = 2.0.1 =
 * Improved readme.txt. Live Chat Support forum is added.
