@@ -1,9 +1,9 @@
-===MyLiveChat - Live Chat Plugin for WordPress===
+===MyLiveChat - Free Live Chat Plugin for WordPress===
 Contributors: MyLiveChat
-Tags: free live chat, chat, chat button, chat link, live chat, chat module, chat plugin, chat script, chat software, chat support, Chat Widget, live chat software
+Tags: free live chat, chat, chat button, chat link, live chat, chat module, chat plugin, chat script, chat software, chat support, Chat Widget, live chat software, banckle, chat on IM, click desk, click-to-call, clickdesk, contact call, contact form, contact plugin, contact us, csupport, email ticketing, facebook chat, free chat, Google chat button, Gtalk button, gtalk chat, help desk, help desk software, helpdesk, IM Chat, live chat inc, live chat services, live chatting, live web chat, offline, olark, online chat, online support, phone, php live chat, skype chat, SkypeMe, snapengage, support software, ticketing, web chat, webchat, Website Chat, wordpress help desk, wordpress live chat, wordpress live chat plugin, zendesk, Zopim
 License: GPLv2 or later
 Requires at least: 2.7
-Tested up to: 3.5.1
+Tested up to: 4.0.0
 Stable tag: 2.0.1
 
 This plugin integrates your Wordpress with My LiveChat - an application for live chat, help desk, online customer service and support. Install it Free today!
@@ -134,6 +134,9 @@ For more information, check out <a href="https://mylivechat.com/screenshots.aspx
 
 
 == Changelog ==
+
+= 2.0.2 =
+* Wordpress 4.0 is supported.
 
 = 2.0.1 =
 * Improved readme.txt. Live Chat Support forum is added.
