@@ -71,10 +71,11 @@ Take a tour to see why you need My LiveChat on your website: https://mylivechat.
 
 It's very simple. Just follow the easy steps listed below:
 
-1. Upload 'my-live-chat-for-wp' directory to Wordpress plugins directory ('/wp-content/plugins/')
-2. Activate the plugin through the 'Plugins' menu in WordPress
-3. Click the 'MyLiveChat' menu on the left.
-4. Follow the instructions.
+1. If you don¡¯t already have MyLiveChat installed, go to Dashboard -> Plugins -> Add New.
+2. Search for "MyLiveChat" in the box provided, and click "Install Now."
+3. After the installation finishes, click "Activate" and you're ready to work with MyLiveChat!
+4. Click the "MyLiveChat" menu on the left.
+5. Follow the instructions.
 
 == Frequently Asked Questions ==
 
