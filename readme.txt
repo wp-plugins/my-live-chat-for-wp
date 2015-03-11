@@ -122,8 +122,8 @@ After installing and configuring the plugin, you can take chats by logging into 
 == Screenshots ==
 
 1. Chat window: A chat with a MyLiveChat operator.
-2. Chat window: Offline window.
-3. Chat window: Agent login window.
+2. Chat window: Inline Chat.
+3. Mobile Console.
 4. Proactive Chat Invitation.
 5. Real-Time Visitor Monitoring.
 6. Chat Widget.
@@ -135,6 +135,9 @@ For more information, check out <a href="https://mylivechat.com/screenshots.aspx
 
 
 == Changelog ==
+
+= 2.0.3 =
+* Screenshots are updated.
 
 = 2.0.2 =
 * Wordpress 4.0 is supported.
